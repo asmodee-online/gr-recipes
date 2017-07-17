@@ -47,7 +47,7 @@ satisfy:
   port: gnuradio
   portage: net-wireless/gnuradio
   pkgconfig: gnuradio-runtime
-source: git+https://github.com/gnuradio/gnuradio.git
+source: git+https://github.com/asmodee-online/gnuradio.git
 gitbranch: master
 gitargs: --recursive
 vars: # We explicitly enable some subcomponents to make sure the build fails if they're not working:
